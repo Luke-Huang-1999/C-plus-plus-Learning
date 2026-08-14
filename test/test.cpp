@@ -1,35 +1,28 @@
 ﻿#include<iostream>
 using namespace std;
+#define WORD "This repository contains my C++ practice projects and related work.\\n"
 
-int add10(int& i, int& j);
-int& max(int& i, int& j);
+int add(int, int);
+double add(double, double);
 
 int main()
 {
+	int a = 10;
+	int b = 20;
 
-	int a = 5;
-	int b = 2;
+	double x = 2.3;
+	double y = 3.5;
 
-	max(a, b) = 1000;
-
-	cout << "a = " << a << "\n";
-	cout << "b = " << b << "\n";
-	return 0;
-}
-
-int add10(int& i, int& j)
-{
-	i = i + 10;
-	j = j + 10;
+	cout << WORD;
 
 	return 0;
 }
 
-int& max(int& i, int& j)
+int add(int i, int j)
 {
-	if (i > j)
-		return i;
-	else
-		return j;
-
+	return (i + j);
+}
+double add(double i, double j)
+{
+	return (i + j);
 }
