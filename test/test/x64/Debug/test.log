@@ -1,2 +1,3 @@
 ﻿  test.cpp
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\test\test.cpp(7,6): warning C4101: 'i': 未參考的區域變數
   test.vcxproj -> C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\test\x64\Debug\test.exe
