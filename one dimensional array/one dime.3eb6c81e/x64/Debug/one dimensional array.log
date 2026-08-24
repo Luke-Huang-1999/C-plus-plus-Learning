@@ -1,2 +1,4 @@
 ﻿  one dimensional array.cpp
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\one dimensional array\one dimensional array.cpp(470,17): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\one dimensional array\one dimensional array.cpp(499,23): warning C4267: '+=': 將 'size_t' 轉換為 'int'，資料可能遺失
   one dimensional array.vcxproj -> C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\one dimensional array\x64\Debug\one dimensional array.exe
