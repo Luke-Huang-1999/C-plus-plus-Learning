@@ -1,2 +1,4 @@
 ﻿  ch9.cpp
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\ch9\ch9.cpp(86,23): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\ch9\ch9.cpp(118,18): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
   ch9.vcxproj -> C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\ch9\x64\Debug\ch9.exe
