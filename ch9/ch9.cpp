@@ -16,18 +16,79 @@ int* find_min(int* a, int* b, int* c);
 void avg(int* arr);
 
 void square(int* arr);
+void display(char* ptr, int n);
+void updown_convert();
+
+void star();
 
 int main()
 {
-	int arr[5] = { 1,2,3,4,5 };
-	square(arr);
-	int i;
-	for (i = 0; i < 5; i++)
-	{
-		cout << *(arr + i) << " ";
-	}
+	star();
 
 	return 0;
+}
+
+void star()
+{
+	char str[30];
+	cout << "請輸入一個字串：";
+	cin.getline(str, 30);
+
+	int i = 0;
+	while (str[i] != '\0')
+	{
+		if (*(str + i) == ' ')
+			*(str + i) = '*';
+		i++;
+	}
+	cout << "替換後的字串 = " << str << "\n";
+}
+
+void updown_convert()
+{
+	//宣告
+	char str1[30];
+	char str2[30];
+	int i = 0;
+	//接收
+	cout << "Input source string：";
+	cin.getline(str1, 30);
+	
+	//複製字串
+	while (str1[i] != '\0')
+	{
+		str2[i] = str1[i];
+		i++;
+	}
+	str2[i] = '\0';
+
+	//轉換之前
+	cout << "Before process...\n" << "string = ";
+	cout << str1 << "\n\n\n";
+
+	//轉換
+	i = 0;
+	while (str2[i] != '\0')
+	{
+		if (str2[i] >= 'a' && str2[i] <= 'z')
+			str2[i] = str2[i] - 32;
+		else if (str2[i] >= 'A' && str2[i] <= 'Z')
+			str2[i] = str2[i] + 32;
+		i++;
+	}
+
+	//轉換之後
+	cout << "After process...\n" << "string = ";
+	cout << str2 << "\n";
+
+}
+
+
+void display(char* ptr, int n)
+{
+	ptr = ptr + 14;
+
+	cout << ptr << "\n";
 }
 
 void showarea(double x, double y, double (*pf)(double, double))
