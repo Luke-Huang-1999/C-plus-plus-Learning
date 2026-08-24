@@ -1,0 +1,10 @@
+Rome was not built in a day
+
+
+Failure is the mother of success.
+
+Input string #1:Hello Kitty
+Input string #2:Thomas & Friend
+Input string #3:Snoopy
+Input string #4:Winnie the Pooh
+Input string #5:Mickey Mouse
