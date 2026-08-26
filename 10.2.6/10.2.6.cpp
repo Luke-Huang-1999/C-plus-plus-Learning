@@ -16,18 +16,17 @@ int main()
 	int b[ROW][COL] = { { 5,2,3 }, {3,3,7} };
 	int c[ROW][COL] = { 0 };
 
-	add(a, b, c);
-
+	
 	int i, j;
 	for (i = 0; i < ROW; i++)
 	{
 		for (j = 0; j < COL; j++)
 		{
 			cout << *(*(c + i) + j) << " ";
-		}
+		{
 		cout << "\n";
-	}
-
+	{
+	
 	return 0;
 }
 
