@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\Python\\10.3.9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E270EE-064C-4969-A44C-164BDFFCA5F6}|10.3.9.vcxproj|C:\\Users\\USER\\Desktop\\Python\\10.3.9\\10.3.9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E7E270EE-064C-4969-A44C-164BDFFCA5F6}|10.3.9.vcxproj|solutionrelative:10.3.9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "10.3.9.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Python\\10.3.9\\10.3.9.cpp",
+              "RelativeDocumentMoniker": "10.3.9.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Python\\10.3.9\\10.3.9.cpp",
+              "RelativeToolTip": "10.3.9.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-26T13:59:29.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
