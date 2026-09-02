@@ -1,0 +1,3 @@
+﻿  11.3.7.cpp
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter11\11.3.7\11.3.7.cpp(11,16): warning C4091: 'typedef ': 當沒有宣告變數時，忽略 'personnel' 的左方
+  11.3.7.vcxproj -> C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter11\11.3.7\x64\Debug\11.3.7.exe
