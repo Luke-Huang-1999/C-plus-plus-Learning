@@ -1,0 +1,4 @@
+﻿  11.5.13.cpp
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter11\11.5.13\11.5.13.cpp(34,17): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter11\11.5.13\11.5.13.cpp(35,40): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  11.5.13.vcxproj -> C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter11\11.5.13\x64\Debug\11.5.13.exe
