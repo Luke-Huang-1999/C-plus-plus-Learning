@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\C\u8A9E\u8A00\\C-plus-plus-Learning\\chapter13\\13.3.9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F94F68D-6279-42F1-9897-F9967ECB50EB}|13.3.9.vcxproj|C:\\Users\\USER\\Desktop\\C\u8A9E\u8A00\\C-plus-plus-Learning\\chapter13\\13.3.9\\13.3.9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F94F68D-6279-42F1-9897-F9967ECB50EB}|13.3.9.vcxproj|solutionrelative:13.3.9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "13.3.9.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\C\u8A9E\u8A00\\C-plus-plus-Learning\\chapter13\\13.3.9\\13.3.9.cpp",
+              "RelativeDocumentMoniker": "13.3.9.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\C\u8A9E\u8A00\\C-plus-plus-Learning\\chapter13\\13.3.9\\13.3.9.cpp*",
+              "RelativeToolTip": "13.3.9.cpp*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-10T06:38:31.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
