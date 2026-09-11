@@ -1,0 +1,7 @@
+﻿  Employee_system.cpp
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter13\Employee_system\Employee_system.cpp(38,16): error C2655: 'Employee::employee_nums': 在目前範圍中定義或重新宣告不合法
+      C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter13\Employee_system\Employee_system.cpp(12,13):
+      請參閱 'Employee::employee_nums' 的宣告
+  
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter13\Employee_system\Employee_system.cpp(38,16): error C2205: 'employee_nums': 無法在區塊範圍內初始化 extern 變數
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter13\Employee_system\Employee_system.cpp(55,28): error C2088: 內建運算子 '<<' 不可套用至類型為 'std::basic_ostream<char,std::char_traits<char>>' 的運算元
