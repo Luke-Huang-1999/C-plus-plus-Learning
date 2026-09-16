@@ -1,0 +1,9 @@
+﻿  15.1.1.cpp
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter15\15.1.1\15.1.1.cpp(26,15): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter15\15.1.1\15.1.1.cpp(46,10): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter15\15.1.1\15.1.1.cpp(47,10): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter15\15.1.1\15.1.1.cpp(57,13): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter15\15.1.1\15.1.1.cpp(58,13): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter15\15.1.1\15.1.1.cpp(68,13): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter15\15.1.1\15.1.1.cpp(69,13): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  15.1.1.vcxproj -> C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter15\15.1.1\x64\Debug\15.1.1.exe
