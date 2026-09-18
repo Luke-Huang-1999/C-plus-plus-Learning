@@ -1,45 +1,38 @@
 ﻿#include <iostream>
-#include <cstring>
 using namespace std;
 
-class Student
+class Box
 {
 private:
-    char* name;
+    int width;
 
 public:
-    Student(const char* n)
+    Box(int w = 0)
+        : width(w)
     {
-        name = new char[strlen(n) + 1];
-        strcpy(name, n);
-    }
-
-    // 請完成拷貝建構子
-    Student(const Student& other)
-    {
-        name = new char[strlen(other.name) + 1];
-        strcpy(name, other.name);
-    }
-
-    ~Student()
-    {
-        delete[] name;
     }
 
     void show()
     {
-        cout << name << endl;
+        cout << "width = " << width << endl;
+    }
+
+    Box& operator=(const Box& other)
+    {
+        if (this != &other)
+            width = other.width;
+
+        return *this;
     }
 };
 
 int main()
 {
-    Student s1("Luke");
+    Box b1(30);
 
-    Student s2 = s1;
+    b1 = b1;
 
-    s1.show();
-    s2.show();
+    b1.show();
 
     return 0;
 }
