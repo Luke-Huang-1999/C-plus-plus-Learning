@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\C\u8A9E\u8A00\\C-plus-plus-Learning\\chapter16\\16.2.10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D087F5A6-BD1A-4686-AB27-8D55089ED798}|16.2.10.vcxproj|C:\\Users\\USER\\Desktop\\C\u8A9E\u8A00\\C-plus-plus-Learning\\chapter16\\16.2.10\\16.2.10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D087F5A6-BD1A-4686-AB27-8D55089ED798}|16.2.10.vcxproj|solutionrelative:16.2.10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "16.2.10.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\C\u8A9E\u8A00\\C-plus-plus-Learning\\chapter16\\16.2.10\\16.2.10.cpp",
+              "RelativeDocumentMoniker": "16.2.10.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\C\u8A9E\u8A00\\C-plus-plus-Learning\\chapter16\\16.2.10\\16.2.10.cpp",
+              "RelativeToolTip": "16.2.10.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-22T13:25:38.218Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
