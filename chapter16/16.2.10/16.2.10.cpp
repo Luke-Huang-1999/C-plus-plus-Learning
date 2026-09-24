@@ -13,15 +13,16 @@ public:
 		num = 5;
 	}
 
+
+};
+class Cbbb :protected Caaa
+{
+public:
 	void show()
 	{
 		cout << "num = " << num << endl;
 	}
-};
-class Cbbb :protected Caaa
-{
-//public:
-//	Cbbb():
+
 };
 
 class Cccc :public Cbbb
