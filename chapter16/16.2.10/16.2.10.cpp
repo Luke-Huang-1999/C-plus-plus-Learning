@@ -22,7 +22,8 @@ public:
 	{
 		cout << "num = " << num << endl;
 	}
-
+	//num:protected
+	//Caaa():protected
 };
 
 class Cccc :public Cbbb
