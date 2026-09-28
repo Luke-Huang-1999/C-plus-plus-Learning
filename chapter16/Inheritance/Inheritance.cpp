@@ -1,50 +1,42 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
-#include<iostream>
+#include <iostream>
+#include<string>
 using namespace std;
 
-class Animal
+class Employee
 {
 protected:
-    int num;
-
+    string name;
+    int salary;
 public:
-    Animal()
+    Employee(string n = "Luke", int s = 30000) :name(n), salary(s) {};
+
+    void show_info()
     {
-        num = 5;
+        cout << "姓名：" << name << ", 薪資 = " << salary << endl;
     }
 
+};
+
+class Manager:public Employee
+{
+public:
     void show()
     {
-        cout << "num = " << num << endl;
+        show_info();
     }
-};
-
-class Dog : protected Animal
-{
-public:
-    void setNum()
+    void raiseSalary()
     {
-        num = 10;
+        salary += 5000;
     }
-
-    void print()
-    {
-        show();
-    }
-};
-
-class Puppy : public Dog
-{
 };
 
 int main()
 {
-    Puppy p;
+    Manager m;
 
-    p.setNum();
-    p.print();
-
-    // 請想辦法讓這裡可以呼叫 show()
+    m.raiseSalary();
+    m.show();
 
     return 0;
 }
