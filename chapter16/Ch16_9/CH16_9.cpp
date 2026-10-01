@@ -36,7 +36,7 @@ public:
 	}
 	CTextWin(const CTextWin& tx) :CWin(tx)
 	{
-		cout << "CTextWin(const CTextWin& tx)被呼叫了\n";
+		cout << "CTextWin(const CTextWin& tx)拷貝建構子被呼叫了\n";
 		text = new char[strlen(tx.text) + 1];
 		strcpy(text, tx.text);
 	}
@@ -63,14 +63,14 @@ int main()
 	CTextWin tx1('A', "Hello C++");
 	CTextWin tx2(tx1);
 
-	tx1.show_member();
-	tx2.show_member();
+	//tx1.show_member();
+	//tx2.show_member();
 
-	cout << "更改tx1物件的成員之後..." << endl;
-	tx1.set_member('B', "Welcome C++");
+	//cout << "更改tx1物件的成員之後..." << endl;
+	//tx1.set_member('B', "Welcome C++");
 
-	tx1.show_member();
-	tx2.show_member();
+	//tx1.show_member();
+	//tx2.show_member();
 
 	return 0;
 }
