@@ -1,0 +1,30 @@
+以下是程式運行的步驟與說明：
+第一步：第63行 CTextWin tx1('A', "Hello C++");系統會呼叫CTextWin類別內成員函數中有2個引數的建構子，利用'A'利用傳值而"Hello C++"利用傳址的方式，傳遞首字母的位址。
+
+第二步：第31行 CTextWin(char i, const char* tx) :CWin(i) 系統發現該CTextWin是繼承至CWin類別，故在建立CTextWin類別的物件之前，先運行CWin類別內含有一個引數的建構子。
+
+第三步：第11行CWin(char i = 'D') :id(i) i的引數有預設值'D'，但本次建立物件tx1有傳入字
+元'A'，故賦值tx1.id = 'A'。
+
+第四步：第13行cout << "CWin(char i = 'D')的建構子被呼叫了。\n"; 系統將訊息輸出至程式運行視窗。
+
+第五步：第33行cout << "CTextWin(char i, const char* tx)建構子被呼叫了\n"; 系統將訊息輸出至程式運行視窗。
+
+
+第六步：第34行text = new char[strlen(tx) + 1]; 系統向記憶體申請一個空間，該大小為透過strlen()函數，前往指向tx的地址，向後記錄大小直到找出\0，並傳回該字串不含\0的字元數，後面加一是因為要額外增加\0；例如Hello C++，共有9個字元，額外再加一個字元空間用來放置\0，完成new後系統傳回該記憶體空間的首地址並讓CTextWin類別的內部成員text指標指向該首地址。
+
+第七步：第35行strcpy(text, tx);透過strcpy()函數將tx指向的內容複製給text指向的記憶體空間。
+
+第八步：第64行CTextWin tx2(tx1);系統透過拷貝建構子建立一個CTextWin類別的物件tx2，該拷貝建構子會傳入物件tx1的參照。
+
+第九步：第15行CWin(const CWin& win)系統接收tx1物件的參照，const代表該函數不會變更tx1物件內部成員
+
+第十步：第17行cout << "CWin(const CWin& win)拷貝建構子被呼叫了\n";系統將訊息輸出至程式運行視窗。
+
+第十一步：第18行 id = win.id;會將tx2內部成員id賦值tx1.id
+
+第十二步：第39行cout << "CTextWin(const CTextWin& tx)被呼叫了\n";系統將訊息輸出至程式運行視窗。
+
+第十三步：第40行text = new char[strlen(tx.text) + 1];系統向記憶體申請一個空間，該大小為透過strlen()函數，前往指向的地址，向後記錄大小直到找出\0，並傳回該字串不含\0的字元數，後面加一是因為要額外增加\0；
+
+第十四步：第41行strcpy(text, tx.text);透過函數strcpy()複製tx1.text的內容給tx2.text。
