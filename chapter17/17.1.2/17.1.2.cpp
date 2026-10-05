@@ -71,3 +71,9 @@ int main()
 	circle.show();
 	return 0;
 }
+
+/*
+Shape color:white, area = 0
+Rectangle color:yellow, width:5, height : 3, area = 15
+Circle color:red, radius:2.5, area = 19.635
+*/
