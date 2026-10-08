@@ -1,0 +1,12 @@
+﻿  17.6.16.a.cpp
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,61): warning C4305: '引數': 從 'double' 轉換為 'T'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,61): warning C4305:         with
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,61): warning C4305:         [
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,61): warning C4305:             T=float
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,61): warning C4305:         ]
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,53): warning C4305: '引數': 從 'double' 轉換為 'T'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,53): warning C4305:         with
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,53): warning C4305:         [
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,53): warning C4305:             T=float
+C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\17.6.16.a.cpp(18,53): warning C4305:         ]
+  17.6.16.a.vcxproj -> C:\Users\USER\Desktop\C語言\C-plus-plus-Learning\chapter17\17.6.16.a\x64\Debug\17.6.16.a.exe
